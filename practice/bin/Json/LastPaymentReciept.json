@@ -1,0 +1,12 @@
+{
+	"status": {
+		
+	},
+	"result": {
+		"homesId": "BILL06",
+		"recieptNo": "TEST124",
+		"paymentTime": 1517483654000,
+		"paymentMode": "CHEQUE",
+		"paymentAmount": "1364"
+	}
+}	

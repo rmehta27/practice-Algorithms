@@ -1,0 +1,84 @@
+{
+	"paymentProfiles": [
+		{
+			"_id": "5a657eea49617adcb5c035f0",
+			"homesId": "HOME124",
+			"consumerTransactionId": "TEST124",
+			"consumerName": "temp_124",
+			"billMonth": "Dec",
+			"billYear": "2017",
+			"paymentDate": "03/01/2018",
+			"paymentMode": "CHEQUE",
+			"paymentAmount": 1364,
+			"bundledServices": [
+				{
+					"lob": "Mobility",
+					"sublob": "",
+					"siList": [
+						{
+							"id": null,
+							"type": "primary",
+							"subLob": "mobility"
+						}
+					],
+					"plan": null,
+					"accountId": null,
+					"rtn": null,
+					"paymentStatus": "UNDERPAID",
+					"billingAmount": 1096.06,
+					"paymentAmount": 96.06,
+					"paymentBreakup": {
+						"previousAdjustments": 0,
+						"currentAmount": 96.06,
+						"excessAmount": 0
+					}
+				},
+				{
+					"lob": "Telemedia",
+					"sublob": "",
+					"siList": [
+						{
+							"id": null,
+							"type": "primary",
+							"subLob": "mobility"
+						}
+					],
+					"plan": null,
+					"accountId": null,
+					"rtn": null,
+					"paymentStatus": "UNDERPAID",
+					"billingAmount": 1096.06,
+					"paymentAmount": 96.06,
+					"paymentBreakup": {
+						"previousAdjustments": 0,
+						"currentAmount": 96.06,
+						"excessAmount": 0
+					}
+				},
+				{
+					"lob": "Postpaid",
+					"sublob": "",
+					"siList": [
+						{
+							"id": null,
+							"type": "primary",
+							"subLob": "mobility"
+						}
+					],
+					"plan": null,
+					"accountId": null,
+					"rtn": null,
+					"paymentStatus": "UNDERPAID",
+					"billingAmount": 1096.06,
+					"paymentAmount": 96.06,
+					"paymentBreakup": {
+						"previousAdjustments": 0,
+						"currentAmount": 96.06,
+						"excessAmount": 0
+					}
+				}
+			]
+		}
+	],
+	"status": null
+}

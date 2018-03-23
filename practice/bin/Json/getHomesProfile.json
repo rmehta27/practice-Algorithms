@@ -1,0 +1,132 @@
+{
+    "requestid": "d82c0d34-ef24-4e15-8f14-134a37a4c4e5",
+    "message": "HOMES_PROFILE_ALREADY_EXISTING",
+    "homesId": "hom12345",
+    "homesOrderId": "hom12345",
+    "orderStatus": "Initiated",
+    "billGenerationDay": "",
+    "creationDate": "30/01/2018 18:33:00",
+    "primaryCustomerDetails": {
+        "si": "123333",
+        "accountNumber": "123_acc",
+        "type": "prm",
+        "email": "abc@abc.com",
+        "phoneNumber": "9999999999999"
+    },
+    "bundledServices": [
+        {
+            "lob": "Mobility",
+            "paymentMode": "Postpaid",
+            "siList": [
+                {
+                    "id": "9160099966",
+                    "type": "primary",
+                    "subLob": "mobility"
+                },
+                {
+                    "id": "9160099967",
+                    "type": "secondary",
+                    "subLob": "mobility"
+                }
+            ],
+            "accountId": "9818805192",
+            "rtn": "9818805192",
+            "plan": {
+                "cityName": "Delhi",
+                "circleId": "14",
+                "circleName": "Delhi+NCR",
+                "pinCode": "1110057",
+                "servicePlanName": "Unlimited",
+                "servicePlanId": "UNL399",
+                "cost": {
+                    "name": "cost",
+                    "frequency": "monthly",
+                    "value": "399"
+                },
+                "resources": [
+                    {
+                        "name": "sms",
+                        "frequency": "monthly",
+                        "value": "30"
+                    },
+                    {
+                        "name": "sms",
+                        "frequency": "monthly",
+                        "value": "30"
+                    }
+                ],
+                "paidResources": [
+                    {
+                        "name": "4g Booster",
+                        "frequency": "monthly",
+                        "value": "20",
+                        "cost": {
+                            "name": "cost",
+                            "frequency": "monthly",
+                            "value": "100"
+                        }
+                    }
+                ]
+            },
+            "discountComponent": {
+                "discountType": "percentage",
+                "discountValue": "10"
+            }
+        },
+        {
+            "lob": "Telemedia",
+            "paymentMode": "Postpaid",
+            "siList": [
+                {
+                    "id": "9160099966",
+                    "type": "primary",
+                    "subLob": "dsl"
+                },
+                {
+                    "id": "9160099967",
+                    "type": "secondary",
+                    "subLob": "fixed"
+                }
+            ],
+            "accountId": "aaa",
+            "rtn": "9818805192",
+            "plan": {
+                "cityName": "Delhi",
+                "circleId": "14",
+                "circleName": "Delhi+NCR",
+                "pinCode": "1110057",
+                "servicePlanName": "Unlimited",
+                "servicePlanId": "UNL399",
+                "cost": {
+                    "name": "cost",
+                    "frequency": "monthly",
+                    "value": "399"
+                },
+                "resources": [
+                    {
+                        "name": "data",
+                        "frequency": "monthly",
+                        "value": "30"
+                    }
+                ],
+                "paidResources": [
+                    {
+                        "name": "additional data",
+                        "frequency": "monthly",
+                        "value": "20",
+                        "cost": {
+                            "name": "cost",
+                            "frequency": "monthly",
+                            "value": "100"
+                        }
+                    }
+                ]
+            },
+            "discountComponent": {
+                "discountType": "percentage",
+                "discountValue": "25"
+            }
+        }
+    ],
+    "isError": false
+}

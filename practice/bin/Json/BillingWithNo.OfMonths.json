@@ -1,0 +1,134 @@
+[
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Feb",
+        "billYear": "2018",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Jan",
+        "billYear": "2018",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Dec",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Nov",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Oct",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Sep",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Aug",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Jul",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Jun",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "May",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Apr",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    },
+    {
+        "homesId": "BILL04",
+        "billType": "Summary",
+        "billMonth": "Mar",
+        "billYear": "2017",
+        "status": {
+            "statusCode": "400",
+            "statusDescription": "Bill Not Generated Yet",
+            "backendErrorCode": null
+        }
+    }
+]

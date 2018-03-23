@@ -1,0 +1,49 @@
+{
+	"status": {
+		
+	},
+	"result": {
+		"homesId": "BILL06",
+		"bundledServices": {
+			"mobility": [
+				{
+					"accountId": "9818805192",
+					"rtn": "9727613112",
+					"plan": {
+						"servicePlanName": "myPlan Infinity 399",
+						"servicePlanId": "BPL2993401",
+						"cost": {
+							"name": "cost",
+							"frequency": "monthly",
+							"value": "399"
+						}
+					},
+					"discountComponent": {
+						"discountType": "percentage",
+						"discountValue": "10"
+					}
+				}
+			],
+			"telemedia": [
+				{
+					"accountId": "aaa",
+					"rtn": "9818805192",
+					"plan": {
+						"servicePlanName": "Unlimited",
+						"servicePlanId": "UNL399",
+						"cost": {
+							"name": "cost",
+							"frequency": "monthly",
+							"value": "399"
+						}
+					},
+					"discountComponent": {
+						"discountType": "percentage",
+						"discountValue": "25"
+					}
+				}
+			],
+			"dth": []
+		}
+	}
+}

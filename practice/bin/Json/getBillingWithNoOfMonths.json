@@ -1,0 +1,302 @@
+[
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"customerName": "shalikaTestBill4",
+		"homesBill": "1560.36",
+		"billMonth": "Jan",
+		"billYear": "2018",
+		"homesBillNumber": "BILL04-27/01/2018",
+		"billDate": "27/01/2018",
+		"billPeriod": "26/12/2017-25/01/2018",
+		"dueDate": "14/02/2018",
+		"bundledServices": [
+			{
+				"lob": "Mobility",
+				"paymentMode": "postpaid",
+				"accountId": "1254253895",
+				"rtn": "9730014780",
+				"currentStatus": "Success",
+				"plan": {
+					"servicePlanName": "my Plan 199 - MH",
+					"servicePlanId": "my Plan 199 - MHBPL2400411",
+					"servicePlanType": "retail",
+					"cityName": "Maharashtra",
+					"circleId": "40",
+					"circleName": "Maharashtra and Goa",
+					"pinCode": "411027",
+					"renewalDate": "12/12/2018",
+					"cost": {
+						"name": "cost",
+						"frequency": "monthly",
+						"value": "199",
+						"descriptionType": null,
+						"descriptionValue": null
+					}
+				},
+				"discountComponent": {
+					"discountType": "percentage",
+					"discountValue": "10"
+				},
+				"siList": [
+					{
+						"id": "9730014780",
+						"type": "primary",
+						"subLob": "mobility"
+					}
+				],
+				"billDetailsResponseVo": {
+					"siNumber": "9730014780",
+					"billStartDate": "26/12/2017",
+					"billEndDate": "25/01/2018",
+					"billGenerationDay": 27,
+					"billDate": "27/01/2018",
+					"dueDate": "14/02/2018",
+					"previousBalance": 286.34,
+					"paymentReceived": 285,
+					"currentCharges": 264.34,
+					"totalAmountDue": 264.26,
+					"afterDueDate": 264.26,
+					"monthlyCharges": 199,
+					"latePaymentFees": 0,
+					"taxes": 40.34,
+					"adjustments": 1.42,
+					"unbilledAmount": 0,
+					"billingAcountNumber": "1254253895",
+					"invoiceNumber": "904585249",
+					"billPlanRental": "199",
+					"lob": "POSTPAID",
+					"status": {
+						"statusCode": "200",
+						"statusDescription": "Successful",
+						"backendErrorCode": null
+					}
+				}
+			},
+			{
+				"lob": "Telemedia",
+				"paymentMode": "postpaid",
+				"accountId": "7017955937",
+				"rtn": "9730014780",
+				"currentStatus": "Success",
+				"plan": {
+					"servicePlanName": null,
+					"servicePlanId": "FLBPL193899",
+					"servicePlanType": "retail",
+					"cityName": "Maharashtra",
+					"circleId": "20",
+					"circleName": "Maharashtra and Goa",
+					"pinCode": "411027",
+					"renewalDate": "12/12/2018",
+					"cost": {
+						"name": "cost",
+						"frequency": "monthly",
+						"value": "999",
+						"descriptionType": null,
+						"descriptionValue": null
+					}
+				},
+				"discountComponent": {
+					"discountType": "percentage",
+					"discountValue": "2"
+				},
+				"siList": [
+					{
+						"id": "02077117050_mh",
+						"type": "primary",
+						"subLob": "dsl"
+					}
+				],
+				"billDetailsResponseVo": {
+					"siNumber": "02077117050_mh",
+					"billStartDate": "26/12/2017",
+					"billEndDate": "25/01/2018",
+					"billGenerationDay": 27,
+					"billDate": "27/01/2018",
+					"dueDate": "15/02/2018",
+					"previousBalance": 1178.28,
+					"paymentReceived": 1179,
+					"currentCharges": 1296.82,
+					"totalAmountDue": 1296.1,
+					"afterDueDate": 1414.1,
+					"monthlyCharges": 1296.82,
+					"latePaymentFees": 0,
+					"taxes": null,
+					"adjustments": 0,
+					"unbilledAmount": 0,
+					"billingAcountNumber": "7017955937",
+					"invoiceNumber": "901720103",
+					"billPlanRental": "999.0",
+					"lob": "DSL",
+					"status": {
+						"statusCode": "200",
+						"statusDescription": "Successful",
+						"backendErrorCode": null
+					}
+				}
+			},
+			{
+				"lob": "DTH",
+				"paymentMode": "postpaid",
+				"accountId": "3017547142",
+				"rtn": "999999999",
+				"currentStatus": null,
+				"plan": {
+					"servicePlanName": "Magnum Treat HD",
+					"servicePlanId": "DTHPKG3341",
+					"servicePlanType": "retail",
+					"cityName": "Delhi",
+					"circleId": "14",
+					"circleName": "Delhi+NCR",
+					"pinCode": "110092",
+					"renewalDate": "12/12/2018",
+					"cost": {
+						"name": "cost",
+						"frequency": "monthly",
+						"value": "644.2",
+						"descriptionType": null,
+						"descriptionValue": null
+					}
+				},
+				"discountComponent": {
+					"discountType": "percentage",
+					"discountValue": "2"
+				},
+				"siList": [
+					{
+						"id": "3017547142-001",
+						"type": "primary",
+						"subLob": "dth"
+					}
+				],
+				"billDetailsResponseVo": null
+			}
+		],
+		"status": {
+			"statusCode": "200",
+			"statusDescription": "Successful",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Dec",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Nov",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Oct",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Sep",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Aug",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Jul",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Jun",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "May",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Apr",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Mar",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	},
+	{
+		"homesId": "BILL04",
+		"billType": "Summary",
+		"billMonth": "Feb",
+		"billYear": "2017",
+		"status": {
+			"statusCode": "400",
+			"statusDescription": "Bill Not Generated Yet",
+			"backendErrorCode": null
+		}
+	}
+]

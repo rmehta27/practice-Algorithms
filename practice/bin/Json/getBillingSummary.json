@@ -1,0 +1,105 @@
+{
+	"homesId": "HOME123",
+	"billType": "Summary",
+	"customerName": "Test",
+	"homesBill": "1199.84",
+	"billMonth": "Dec",
+	"billYear": "2017",
+	"homesBillNumber": "HOME123-18/12/2017",
+	"billDate": "18/12/2017",
+	"billPeriod": "17/11/2017-16/12/2017",
+	"dueDate": "05/01/2018",
+	"bundledServices": [
+		{
+			"lob": "Mobility",
+			"paymentMode": null,
+			"accountId": null,
+			"rtn": null,
+			"currentStatus": "Success",
+			"plan": null,
+			"discountComponent": null,
+			"siList": [
+				{
+					"id": "9727613112",
+					"type": "primary",
+					"subLob": "mobility"
+				}
+			],
+			"billDetailsResponseVo": {
+				"siNumber": "9727613112",
+				"billStartDate": "17/11/2017",
+				"billEndDate": "16/12/2017",
+				"billGenerationDay": 18,
+				"billDate": "18/12/2017",
+				"dueDate": "05/01/2018",
+				"previousBalance": -310.3,
+				"paymentReceived": 0,
+				"currentCharges": 178.78,
+				"totalAmountDue": -234.18,
+				"afterDueDate": -234.18,
+				"monthlyCharges": 149,
+				"latePaymentFees": 0,
+				"taxes": 27.28,
+				"adjustments": 102.66,
+				"unbilledAmount": 6,
+				"billingAcountNumber": "1176201600",
+				"invoiceNumber": "772929950",
+				"billPlanRental": "199",
+				"lob": "POSTPAID",
+				"status": {
+					"statusCode": "200",
+					"statusDescription": "Successful",
+					"backendErrorCode": null
+				}
+			}
+		},
+		{
+			"lob": "Telemedia",
+			"paymentMode": null,
+			"accountId": null,
+			"rtn": null,
+			"currentStatus": "Success",
+			"plan": null,
+			"discountComponent": null,
+			"siList": [
+				{
+					"id": "012438206109_dsl",
+					"type": "primary",
+					"subLob": "dsl"
+				}
+			],
+			"billDetailsResponseVo": {
+				"siNumber": "012438206109_dsl",
+				"billStartDate": "23/11/2017",
+				"billEndDate": "22/12/2017",
+				"billGenerationDay": 24,
+				"billDate": "24/12/2017",
+				"dueDate": "12/01/2018",
+				"previousBalance": 2122.56,
+				"paymentReceived": 2123,
+				"currentCharges": 1434.46,
+				"totalAmountDue": 1434.02,
+				"afterDueDate": 1552.02,
+				"monthlyCharges": 1434.46,
+				"latePaymentFees": 0,
+				"taxes": null,
+				"adjustments": 0,
+				"unbilledAmount": 0,
+				"billingAcountNumber": "7031799780",
+				"invoiceNumber": "785871336",
+				"billPlanRental": "1215.66",
+				"lob": "DSL",
+				"status": {
+					"statusCode": "200",
+					"statusDescription": "Successful",
+					"backendErrorCode": null
+				}
+			}
+		}
+	],
+	"status": {
+		"statusCode": "200",
+		"statusDescription": "Successful",
+		"backendErrorCode": null
+	}
+}
